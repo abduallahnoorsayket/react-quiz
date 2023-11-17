@@ -26,7 +26,9 @@ export const Signup = () => {
             icon="lock_clock"
           />
           <Checkbox type="checkbox" text="i agree to terms  &amp; conditions" />
-          <Button>Submit now </Button>
+          <Button>
+            <span>Submit now </span>
+          </Button>
           <div className="info">
             Already have an account? <a href="login.html">Login</a> instead.
           </div>

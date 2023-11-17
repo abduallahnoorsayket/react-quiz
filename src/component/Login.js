@@ -18,7 +18,7 @@ export const Login = () => {
             icon="alternate_email"
           />
           <TextInput type="text" placeholder="Enter password" icon="lock" />
-          <Button>Submit now </Button>
+          <Button> <span> Submit now </span> </Button>
           <div className="info">
             Already have an account? <a href="login.html">Login</a> instead.
           </div>
